@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container h1 {
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.buttons button {
+  border: none;
+  padding: 10px 20px;
+  color: #ffbf86;
+  border-radius: 10px;
+  background: rgba(231, 255, 253, 0.1);  
+}
