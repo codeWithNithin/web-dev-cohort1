@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.main-header {
+  padding: 1.8rem 0;
+  text-align: center;
+}
+
+.main-header p {
+  font-size: 1.4rem;
+}
+
+main {
+  width: 100%;
+}
+
+.main-header h1 {
+  font-size: 3.2rem;
+}
+
+.product-list {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  gap: 1.6rem;
+}
+
+.card {
+  padding: 1.6rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.card-img img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-content {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.card-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.amt {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.product-list img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+
+main {
+  margin-bottom: 2.2rem;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  padding: 1.6rem 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 130rem;
+    margin: 0 auto;
+  }
+
+
+  .product-list {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr))
+  }
+}
