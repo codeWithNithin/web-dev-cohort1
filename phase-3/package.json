@@ -1,0 +1,20 @@
+{
+  "name": "authentication-system",
+  "version": "1.0.0",
+  "description": "An basic authentication system in nodejs along with mongodb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "Nithn Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "mongodb": "^6.14.2",
+    "nodemon": "^3.1.9"
+  }
+}
