@@ -5,3 +5,4 @@ setTimeout(() => {
 console.log('end')
 
 // whenver js main thread is free, it will encounter the settimeout function and will signals the runtime env to execute this timer callback. so when the timer gets executed. event loop checks if the js main thread is free.
+// if not free, then the timer callback will be added to the macro queue.
